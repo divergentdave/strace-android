@@ -65,6 +65,10 @@
 # include <asm/rse.h>
 #endif
 
+#if defined(LINUX) && defined(ARM)
+#include <asm/ptrace.h>
+#endif
+
 #ifndef ERESTARTSYS
 # define ERESTARTSYS	512
 #endif

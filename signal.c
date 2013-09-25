@@ -56,6 +56,10 @@
 # undef pt_all_user_regs
 #endif
 
+#if defined(LINUX) && defined(ARM)
+#include <asm/ptrace.h>
+#endif
+
 #ifdef IA64
 # include <asm/ptrace_offsets.h>
 #endif
