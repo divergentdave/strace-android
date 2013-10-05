@@ -1,6 +1,6 @@
 # strace-android
 
-strace-android is a customized version of strace, modified by @adetaylor (adetaylor/strace-android) to read and interpret ioctl() calls made on binder handles. Binder, formerly known as Open Binder, is an interprocess communication API used in Android systems. This repository includes some minor fixes to work around compile issues I ran into. There is a statically built ARM binary of strace on the "build" branch, for convenience.
+strace-android is a customized version of strace, originally modified by [@adetaylor](https://github.com/adetaylor/) to read and interpret ioctl() calls made on binder handles. Binder, formerly known as Open Binder, is an interprocess communication API used in Android systems. This repository includes some minor fixes to work around compile issues I ([@divergentdave](https://github.com/divergentdave/)) ran into. There is a statically built ARM binary of strace on the "build" branch, for convenience.
 
 ## Downloading
 
